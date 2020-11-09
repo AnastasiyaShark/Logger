@@ -7,7 +7,7 @@ public class Logger {
     private static Logger logger = null;
 
     protected int num = 1;
-    SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+    private SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     private Logger() {
     }
